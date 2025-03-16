@@ -5974,6 +5974,12 @@
 		(uuid "95c7b5af-d011-4e85-881b-265b8d29e935")
 	)
 	(junction
+		(at 1088.39 457.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96210e5f-5c0e-4c13-8504-88a650587040")
+	)
+	(junction
 		(at 346.71 452.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6434,6 +6440,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4e10955-c202-46cf-910f-9d56b6c1fd06")
+	)
+	(junction
+		(at 308.61 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e90de4-15da-4197-af18-1cdf6d75b90b")
 	)
 	(junction
 		(at 789.94 457.2)
@@ -7302,10 +7314,6 @@
 	(no_connect
 		(at 256.54 219.71)
 		(uuid "1ecac98c-991b-4aae-a9c3-53bbc93f1565")
-	)
-	(no_connect
-		(at 1066.8 464.82)
-		(uuid "25a47589-eaf3-47fb-8098-efd3e1acd1d7")
 	)
 	(no_connect
 		(at 201.93 269.24)
@@ -8369,6 +8377,16 @@
 	)
 	(wire
 		(pts
+			(xy 1088.39 457.2) (xy 1150.62 457.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a43331f-8727-4829-a2b4-610f8544ee59")
+	)
+	(wire
+		(pts
 			(xy 1150.62 473.71) (xy 1162.05 473.71)
 		)
 		(stroke
@@ -9319,7 +9337,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 273.05) (xy 302.26 273.05)
+			(xy 300.99 273.05) (xy 308.61 273.05)
 		)
 		(stroke
 			(width 0)
@@ -13749,6 +13767,16 @@
 	)
 	(wire
 		(pts
+			(xy 1088.39 457.2) (xy 1088.39 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f9eaa2-29d2-4c33-a8e3-ad3a6bff381b")
+	)
+	(wire
+		(pts
 			(xy 1066.8 443.23) (xy 1068.07 443.23)
 		)
 		(stroke
@@ -15619,7 +15647,7 @@
 	)
 	(wire
 		(pts
-			(xy 1065.53 464.82) (xy 1066.8 464.82)
+			(xy 1065.53 464.82) (xy 1071.88 464.82)
 		)
 		(stroke
 			(width 0)
@@ -16219,6 +16247,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 273.05) (xy 314.96 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63ebef5-97f3-4e87-a24a-d9b88b0b0fb3")
+	)
+	(wire
+		(pts
 			(xy 149.86 274.32) (xy 149.86 273.05)
 		)
 		(stroke
@@ -16496,6 +16534,16 @@
 			(type default)
 		)
 		(uuid "dbda9c51-9001-4e8c-9852-287806794657")
+	)
+	(wire
+		(pts
+			(xy 308.61 270.51) (xy 308.61 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc24dd06-74ff-495e-b792-73ebcdcd33f3")
 	)
 	(wire
 		(pts
@@ -17349,7 +17397,7 @@
 	)
 	(wire
 		(pts
-			(xy 1057.91 457.2) (xy 1150.62 457.2)
+			(xy 1057.91 457.2) (xy 1088.39 457.2)
 		)
 		(stroke
 			(width 0)
@@ -18617,7 +18665,7 @@
 		(uuid "3ef1d999-7543-406c-95fe-393932b0f47f")
 	)
 	(label "DIN"
-		(at 302.26 273.05 0)
+		(at 314.96 273.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25859,6 +25907,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 1088.39 472.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32bd0dba-5413-4635-a458-67b5bca524fa")
+		(property "Reference" "TP5"
+			(at 1090.93 467.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5016"
+			(at 1090.93 470.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "jannett_footprints:TestPoint_Keystone_5016_Compact"
+			(at 1093.47 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1093.47 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 1088.39 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "276322ff-970b-4a55-b66c-ce2694e0a223")
+		)
+		(instances
+			(project "DCTransistor_Bidirectional"
+				(path "/bb4f1a4d-8eb9-428d-86c0-7fe0d9448d56"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812")
 		(at 491.49 443.23 0)
 		(unit 1)
@@ -26819,6 +26934,73 @@
 			(project "DCTransistor_Bidirectional"
 				(path "/bb4f1a4d-8eb9-428d-86c0-7fe0d9448d56"
 					(reference "D176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 308.61 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d9b07de-4b59-4772-b80c-47aeb521b7ef")
+		(property "Reference" "TP2"
+			(at 311.15 265.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5016"
+			(at 311.15 268.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "jannett_footprints:TestPoint_Keystone_5016_Compact"
+			(at 313.69 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 308.61 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beaeaf15-4ef1-4356-b8a8-a6b6aeeabdd0")
+		)
+		(instances
+			(project "DCTransistor_Bidirectional"
+				(path "/bb4f1a4d-8eb9-428d-86c0-7fe0d9448d56"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -32633,6 +32815,73 @@
 			(project "DCTransistor_Bidirectional"
 				(path "/bb4f1a4d-8eb9-428d-86c0-7fe0d9448d56"
 					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 1071.88 464.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7167ec8a-f5e9-43cc-8905-0fc6c9f32b35")
+		(property "Reference" "TP3"
+			(at 1076.96 463.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5016"
+			(at 1076.96 466.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "jannett_footprints:TestPoint_Keystone_5016_Compact"
+			(at 1071.88 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1071.88 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 1071.88 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49054e42-127b-4ed2-a57e-4ac9d1b210c2")
+		)
+		(instances
+			(project "DCTransistor_Bidirectional"
+				(path "/bb4f1a4d-8eb9-428d-86c0-7fe0d9448d56"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -45870,6 +46119,73 @@
 			(project "DCTransistor_Bidirectional"
 				(path "/bb4f1a4d-8eb9-428d-86c0-7fe0d9448d56"
 					(reference "D142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 1088.39 459.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd04eaa3-7d07-4c2a-bf43-ed1aa3a42317")
+		(property "Reference" "TP4"
+			(at 1090.93 464.3121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5016"
+			(at 1090.93 461.7721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "jannett_footprints:TestPoint_Keystone_5016_Compact"
+			(at 1093.47 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1093.47 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 1088.39 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "365fb326-6a38-440d-990d-798a938b02cd")
+		)
+		(instances
+			(project "DCTransistor_Bidirectional"
+				(path "/bb4f1a4d-8eb9-428d-86c0-7fe0d9448d56"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
